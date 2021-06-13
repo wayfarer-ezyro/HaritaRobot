@@ -172,7 +172,7 @@ def paginate_help(event, page_number, loaded_plugins, prefix):
                     "Go Back 🔙", data="reopen_again"
                ),
                 custom.Button.url(
-                    "About", data="about_me"
+                    "Source", "https://github.com/Teameviral/HaritaRobot"
                 ),
                 
                 
