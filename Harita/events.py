@@ -20,7 +20,7 @@ from Harita.modules.sql.checkuser_sql import add_usersid_in_db, already_added, g
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["Harita"]
+db = client["MarineDatabase"]
 blacklist = db.black
 sudo = db.sudo
 
